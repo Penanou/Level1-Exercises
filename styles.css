@@ -1,0 +1,31 @@
+
+ 
+
+header.title-container1 nav.navbar {
+    background-color: black;
+    padding: 4px 3px 6px 3px;
+    color: white;
+}
+nav.navbar li.nav-item {
+    list-style: none;
+    display: inline;
+}
+nav.navbar li.nav-item a.nav-link {
+    color: whitesmoke;
+    text-decoration: none;
+    padding: 5px 10px;
+    background-color:rgb(10 102 196 );
+    border-radius: 5px;
+}
+/* parent ->children relationship */
+nav.navbar li.nav-item a.nav-link:hover {
+    background-color: lightblue;
+    color: white;
+    transition: 2s ease;
+}
+section div h1 {
+    font-size: xx-large;
+} 
+footer.div {
+    background-color: aqua;
+} 
