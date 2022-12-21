@@ -1,31 +1,20 @@
-
- 
-
-header.title-container1 nav.navbar {
+.footer-col{
     background-color: black;
-    padding: 4px 3px 6px 3px;
-    color: white;
+    color: antiquewhite;
 }
-nav.navbar li.nav-item {
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul {
     list-style: none;
-    display: inline;
 }
-nav.navbar li.nav-item a.nav-link {
-    color: whitesmoke;
-    text-decoration: none;
-    padding: 5px 10px;
-    background-color:rgb(10 102 196 );
-    border-radius: 5px;
+.row{
+    display: flex;
+    flex-wrap: wrap;
 }
-/* parent ->children relationship */
-nav.navbar li.nav-item a.nav-link:hover {
-    background-color: lightblue;
-    color: white;
-    transition: 2s ease;
+.container{
+    background-color: black;
 }
-section div h1 {
-    font-size: xx-large;
-} 
-footer.div {
-    background-color: aqua;
-} 
+
